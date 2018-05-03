@@ -3,6 +3,21 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
 p {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
