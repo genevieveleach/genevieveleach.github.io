@@ -1,10 +1,11 @@
 // WRITTEN BY W3 Schools @ https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
+// Small changes by Genevieve Leach
 
-filterSelection("all") // Execute the function and show all columns
+filterSelection("all"); // Execute the function and show all columns
 function filterSelection(c) {
     var x, i;
     x = document.getElementsByClassName("column");
-    if (c == "all") c = "";
+    if (c === "all") c = "";
     // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
     for (i = 0; i < x.length; i++) {
         w3RemoveClass(x[i], "show");
@@ -18,7 +19,7 @@ function w3AddClass(element, name) {
     arr1 = element.className.split(" ");
     arr2 = name.split(" ");
     for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {
+        if (arr1.indexOf(arr2[i]) === -1) {
             element.className += " " + arr2[i];
         }
     }
