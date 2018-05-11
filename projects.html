@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/portfolio.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
 
   <title>Projects</title>
@@ -11,6 +11,7 @@
 <body>
 <h1>Projects</h1>
 
+<!-- Navigation Bar-->
 <ul class="navigation" id="roundedcorners">
   <li><a href="/index.html">About</a></li>
   <li><a href="/projects.html">Projects</a></li>
@@ -20,10 +21,32 @@
   <li><a href="">stay rad!</a></li>
 </ul>
 
-<p>
-  <img src="https://78.media.tumblr.com/0971ca0ea847accef243867653de5196/tumblr_mwulbysywi1rtavo5o2_540.png" align="center" width="150px">
-  <br><br>Page not set up yet! Please come back later! 
-  <br><br>Projects right now can be seen on my GitHub above in the meantime!!!
-</p>
+<!-- Project Grid -->
+<p><script src="js/filter.js"></script></p>
+<div id="filterButtons">
+  <button class="button active" onclick="filterSelection('all')">All Projects</button>
+  <button class="button" onclick="filterSelection('school')">School Projects</button>
+  <button class="button" onclick="filterSelection('personal')">Personal Projects</button>
+</div>
+
+<div class="row">
+  <div class="column school">
+    <div class="content">
+      <!-- example box -->
+      <img src="pics/Frienduler/1.png" alt="login screen" style="width:100%">
+      <h2>Frienduler</h2>
+      <p>A web service for friends to compare schedules. </p>
+      <p>Date(s): Oct-Dec 2017</p>
+      <!--insert carousel here -->
+    </div> <!-- end content -->
+  </div> <!-- end column school -->
+
+  <div class="column personal">
+    <div class="content">
+      <!-- insert carousel here -->
+    </div> <!-- end content -->
+  </div> <!-- end column personal -->
+</div> <!-- end row -->
+
 </body>
 </html>

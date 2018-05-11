@@ -1,0 +1,41 @@
+/*navbar styles*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c6aaf8;
+    border: 1px solid #ffffff;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #ffffff;
+    position:sticky;
+}
+
+li:last-child {
+    border-left: 1px solid #ffffff;
+    border-right: none;
+    float:right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b68d97;
+}
+
+li a.active {
+    background-color: #b68d97;
+}
+
+#roundedcorners {
+    border-radius: 4px;
+}
