@@ -101,3 +101,8 @@ h1 {
 .show {
     display: block;
 }
+
+.carousel-inner {
+    max-height: 350px;
+    overflow: hidden;
+}
