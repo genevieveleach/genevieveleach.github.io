@@ -1,3 +1,3 @@
 ## Genevieve Leach
 
-Baby's first personal website.
+My github pages website, constucted on my own! Serves as my portfolio and personal website.
